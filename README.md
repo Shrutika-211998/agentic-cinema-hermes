@@ -86,3 +86,8 @@ python test_core.py   # 20 behavior tests — IAM gate, swaps, E2E deny→approv
 ## License
 
 Apache-2.0
+
+## Repository
+
+https://github.com/Shrutika-211998/agentic-cinema-hermes
+
