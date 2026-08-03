@@ -40,12 +40,14 @@ Leaked or mis-licensed content is a studio catastrophe. Second Unit **cannot** s
 
 ## Links
 
-- **Hosted dashboard:** https://second-unit-dashboard-fytheknb4a-el.a.run.app/?api=https://second-unit-api-fytheknb4a-el.a.run.app
+- **GitHub:** https://github.com/Shrutika-211998/agentic-cinema-hermes
+- **Hosted dashboard:** https://second-unit-dashboard-fytheknb4a-el.a.run.app/
 - **API health:** https://second-unit-api-fytheknb4a-el.a.run.app/api/health
 - **Partner Archive MCP:** https://second-unit-archive-mcp-fytheknb4a-el.a.run.app/health
 - **Rights MCP:** https://second-unit-rights-mcp-fytheknb4a-el.a.run.app/health
+- **Architecture:** https://second-unit-dashboard-fytheknb4a-el.a.run.app/architecture.html
 - Trailer script: `TRAILER.md`
-- Architecture: repo README + original architecture spec
+- Full submit pack: `SUBMIT_NOW.md`
 
 ## Team
 

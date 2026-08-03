@@ -80,14 +80,18 @@ See `HACKATHON.md`, `DEVPOST.md`, `TRAILER.md`.
 ## Tests
 
 ```bash
-python test_core.py   # 20 behavior tests — IAM gate, swaps, E2E deny→approve
+python test_core.py
 ```
-
-## License
-
-Apache-2.0
 
 ## Repository
 
 https://github.com/Shrutika-211998/agentic-cinema-hermes
+
+## Hackathon submit pack
+
+See **`SUBMIT_NOW.md`** for Devpost copy/paste fields, checklist, and demo script.
+
+## License
+
+Apache-2.0
 
