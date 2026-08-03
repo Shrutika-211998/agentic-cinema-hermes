@@ -24,6 +24,8 @@ class Handler(SimpleHTTPRequestHandler):
     def do_GET(self):
         if self.path in ("/", ""):
             self.path = "/index.html"
+        if self.path in ("/trailer", "/trailer/"):
+            self.path = "/trailer.html"
         return SimpleHTTPRequestHandler.do_GET(self)
 
     def end_headers(self):

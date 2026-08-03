@@ -91,7 +91,13 @@ https://second-unit-dashboard-fytheknb4a-el.a.run.app/
 ```
 
 ### Video
-Record using `TRAILER.md` → upload YouTube (unlisted OK) → paste link.
+```
+https://second-unit-dashboard-fytheknb4a-el.a.run.app/trailer
+```
+
+(Direct MP4: https://second-unit-dashboard-fytheknb4a-el.a.run.app/second-unit-trailer.mp4)
+
+Also in repo: `docs/trailer/second-unit-trailer.mp4`
 
 ---
 
