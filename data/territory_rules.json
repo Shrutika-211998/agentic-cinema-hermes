@@ -1,0 +1,32 @@
+{
+  "territories": [
+    {
+      "territory": "US",
+      "ratings_body": "MPAA / platform community guidelines",
+      "restrictions": [
+        "Treat unknown license status as NOT cleared",
+        "Talent likeness must be explicitly cleared for commercial social",
+        "Music needle-drops require music_cleared=true"
+      ],
+      "policy_text": "US social distribution requires platform+territory+window clearance. Prefer GLOBAL or US territory grants."
+    },
+    {
+      "territory": "IN",
+      "ratings_body": "CBFC guidance + platform rules",
+      "restrictions": [
+        "Treat unknown license status as NOT cleared",
+        "Prefer India Field Unit cleared assets for local cultural content"
+      ],
+      "policy_text": "India releases require territory IN or GLOBAL. Be conservative on talent likeness."
+    },
+    {
+      "territory": "GLOBAL",
+      "ratings_body": "strictest applicable",
+      "restrictions": [
+        "Asset must list GLOBAL or every target territory",
+        "Unknown is NOT cleared"
+      ],
+      "policy_text": "Global release is the strictest path — every clip must be GLOBAL-cleared."
+    }
+  ]
+}

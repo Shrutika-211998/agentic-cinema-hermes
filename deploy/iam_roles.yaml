@@ -1,0 +1,6 @@
+title: Second Unit custom IAM roles
+# Apply with:
+#   gcloud iam roles create secondunit.briefSubmitter --project=PROJECT --file=deploy/iam_roles_briefSubmitter.yaml
+#   ... etc
+
+# See deploy/create_iam_roles.sh

@@ -1,0 +1,11 @@
+{
+  "name": "second-unit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Second Unit — autonomous studio crew for rights-cleared cuts",
+  "scripts": {
+    "start": "python -m src.server",
+    "test": "python test_core.py",
+    "mcp:rights": "python mcp/rights_server.py"
+  }
+}

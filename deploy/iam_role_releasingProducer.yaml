@@ -1,0 +1,14 @@
+title: "Second Unit Releasing Producer"
+description: "Only role whose approval unblocks publish_release_package."
+stage: "GA"
+includedPermissions:
+  - resourcemanager.projects.get
+  - logging.logEntries.create
+  - logging.logEntries.list
+  - datastore.entities.get
+  - datastore.entities.list
+  - datastore.entities.create
+  - datastore.entities.update
+  - storage.objects.create
+  - storage.objects.get
+  - storage.objects.list

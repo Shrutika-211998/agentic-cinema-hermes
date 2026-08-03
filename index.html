@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Second Unit — Studio Dashboard</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="/config.js"></script>
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo-mark">SU</div>
+        <div>
+          <div class="brand-title">Second Unit</div>
+          <div class="brand-sub">Autonomous studio crew · rights-cleared cuts</div>
+        </div>
+      </div>
+      <div class="topbar-meta">
+        <span id="apiStatus" class="pill pill-warn">API …</span>
+        <label class="identity-label">
+          Acting as
+          <select id="principalSelect"></select>
+        </label>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="col left">
+        <div class="card">
+          <div class="card-h">
+            <h2>Creative brief</h2>
+            <span class="muted">Director intake</span>
+          </div>
+          <textarea id="briefInput" rows="5" placeholder="e.g. Make a 20 second energetic Instagram reel about stadium football celebrations for the US"></textarea>
+          <div class="row gap">
+            <button id="runBtn" class="btn primary">Run production</button>
+            <button id="sampleBtn" class="btn ghost">Load demo brief</button>
+          </div>
+          <p class="hint">Pipeline: Research → Edit → Clearance → <strong>IAM approval gate</strong> → Delivery</p>
+        </div>
+
+        <div class="card">
+          <div class="card-h">
+            <h2>Crew status</h2>
+            <span id="stagePill" class="pill">idle</span>
+          </div>
+          <ol id="crewList" class="crew">
+            <li data-agent="director"><span class="dot"></span><div><strong>Director</strong><small>Orchestrator</small></div><em class="agent-state">idle</em></li>
+            <li data-agent="researcher_agent"><span class="dot"></span><div><strong>Researcher</strong><small>Partner Archive MCP</small></div><em class="agent-state">idle</em></li>
+            <li data-agent="editor_agent"><span class="dot"></span><div><strong>Editor</strong><small>Assembly + captions</small></div><em class="agent-state">idle</em></li>
+            <li data-agent="clearance_officer_agent"><span class="dot"></span><div><strong>Clearance Officer</strong><small>Rights MCP</small></div><em class="agent-state">idle</em></li>
+            <li data-agent="distributor_agent"><span class="dot"></span><div><strong>Distributor</strong><small>Governed delivery</small></div><em class="agent-state">idle</em></li>
+          </ol>
+        </div>
+
+        <div class="card gate-card" id="gateCard">
+          <div class="card-h">
+            <h2>Approval gate</h2>
+            <span class="pill pill-accent">Studio Head</span>
+          </div>
+          <p id="gateMessage" class="gate-msg">Awaiting a cleared cut…</p>
+          <div class="row gap">
+            <button id="approveBtn" class="btn primary" disabled>Approve release</button>
+            <button id="rejectBtn" class="btn danger" disabled>Reject</button>
+          </div>
+          <p class="hint">Only <code>roles/secondunit.releasingProducer</code> can unblock publish. Try marketing first — IAM will deny.</p>
+        </div>
+      </section>
+
+      <section class="col center">
+        <div class="card">
+          <div class="card-h">
+            <h2>Candidate clips</h2>
+            <span id="candCount" class="muted">0</span>
+          </div>
+          <div id="candidates" class="thumb-grid empty-state">Run a production to pull archive candidates.</div>
+        </div>
+
+        <div class="card">
+          <div class="card-h">
+            <h2>Selected timeline</h2>
+            <span id="timelineMeta" class="muted">—</span>
+          </div>
+          <div id="timeline" class="timeline empty-state">Editor has not cut yet.</div>
+        </div>
+
+        <div class="card">
+          <div class="card-h">
+            <h2>Rough cut + metadata</h2>
+          </div>
+          <div id="cutMeta" class="cut-meta empty-state">No cut yet.</div>
+        </div>
+      </section>
+
+      <section class="col right">
+        <div class="card">
+          <div class="card-h">
+            <h2>Clearance report</h2>
+            <span id="clearancePill" class="pill">pending</span>
+          </div>
+          <div id="clearanceReport" class="report empty-state">Clearance Officer has not reported.</div>
+        </div>
+
+        <div class="card">
+          <div class="card-h">
+            <h2>Audit trail</h2>
+            <span class="muted">Cloud Logging seam</span>
+          </div>
+          <div id="auditTrail" class="audit empty-state">No events yet.</div>
+        </div>
+
+        <div class="card">
+          <div class="card-h">
+            <h2>Release package</h2>
+          </div>
+          <div id="releaseBox" class="release empty-state">Not delivered.</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Brief → discovery → assembly → clearance → governed approval → delivery</span>
+      <span id="runIdLabel" class="mono">no active run</span>
+    </footer>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>

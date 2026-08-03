@@ -1,0 +1,454 @@
+{
+  "assets": [
+    {
+      "asset_id": "clip_stadium_roar_01",
+      "title": "Stadium Roar Wide",
+      "owner": "Studio Sports Archive",
+      "license": {
+        "status": "cleared",
+        "platforms": ["instagram", "youtube", "web", "tiktok"],
+        "territories": ["US", "IN", "GLOBAL"],
+        "window": { "start": "2020-01-01", "end": "2030-12-31" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "CONTRACT-SSA-2020-014",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_stadium_lights_02",
+      "title": "Stadium Lights Sweep",
+      "owner": "Studio Sports Archive",
+      "license": {
+        "status": "cleared",
+        "platforms": ["instagram", "youtube", "broadcast", "web"],
+        "territories": ["GLOBAL"],
+        "window": { "start": "2019-01-01", "end": "2030-12-31" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "CONTRACT-SSA-2019-002",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_player_sprint_03",
+      "title": "Player Sprint Close-up",
+      "owner": "Studio Sports Archive",
+      "license": {
+        "status": "cleared",
+        "platforms": ["instagram", "youtube", "tiktok", "web"],
+        "territories": ["US", "IN", "GB", "EU"],
+        "window": { "start": "2023-01-01", "end": "2029-12-31" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "CONTRACT-SSA-2023-088",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_trophy_lift_04",
+      "title": "Trophy Lift Celebration",
+      "owner": "League Media Partners",
+      "license": {
+        "status": "restricted",
+        "platforms": ["broadcast"],
+        "territories": ["US"],
+        "window": { "start": "2020-01-01", "end": "2025-06-01" },
+        "music_cleared": false,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "CONTRACT-LMP-2020-TROPHY",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_city_skyline_05",
+      "title": "City Skyline Golden Hour",
+      "owner": "City Stock Coop",
+      "license": {
+        "status": "cleared",
+        "platforms": ["instagram", "youtube", "web", "broadcast", "tiktok"],
+        "territories": ["GLOBAL"],
+        "window": { "start": "2018-01-01", "end": "2035-01-01" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "STOCK-CSC-SKY-05",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_kids_playing_06",
+      "title": "Kids Playing Street Football",
+      "owner": "Community Docs",
+      "license": {
+        "status": "cleared",
+        "platforms": ["instagram", "youtube", "web"],
+        "territories": ["US", "IN", "GLOBAL"],
+        "window": { "start": "2018-01-01", "end": "2030-12-31" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "CONTRACT-CD-2018-044",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_coach_huddle_07",
+      "title": "Coach Huddle",
+      "owner": "Studio Sports Archive",
+      "license": {
+        "status": "cleared",
+        "platforms": ["instagram", "youtube", "web", "broadcast"],
+        "territories": ["GLOBAL"],
+        "window": { "start": "2022-01-01", "end": "2030-12-31" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "CONTRACT-SSA-2022-017",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_rain_training_08",
+      "title": "Rain Training Montage",
+      "owner": "Studio Sports Archive",
+      "license": {
+        "status": "cleared",
+        "platforms": ["instagram", "youtube", "tiktok", "web"],
+        "territories": ["GLOBAL"],
+        "window": { "start": "2021-01-01", "end": "2030-12-31" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "CONTRACT-SSA-2021-055",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_crowd_wave_09",
+      "title": "Crowd Wave",
+      "owner": "Studio Sports Archive",
+      "license": {
+        "status": "cleared",
+        "platforms": ["instagram", "youtube", "web"],
+        "territories": ["US", "IN", "GB"],
+        "window": { "start": "2023-01-01", "end": "2029-12-31" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "CONTRACT-SSA-2023-091",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_brand_logo_bump_10",
+      "title": "Legacy Brand Logo Bump",
+      "owner": "Brand Marketing",
+      "license": {
+        "status": "restricted",
+        "platforms": ["broadcast"],
+        "territories": ["US"],
+        "window": { "start": "2015-01-01", "end": "2020-01-01" },
+        "music_cleared": false,
+        "likeness_cleared": false
+      },
+      "source_of_truth": "CONTRACT-BRAND-BUMP-2015",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_interview_star_11",
+      "title": "Star Player Interview",
+      "owner": "Talent Rights Desk",
+      "license": {
+        "status": "restricted",
+        "platforms": ["youtube", "broadcast"],
+        "territories": ["US"],
+        "window": { "start": "2024-01-01", "end": "2026-06-01" },
+        "music_cleared": true,
+        "likeness_cleared": false
+      },
+      "source_of_truth": "TALENT-LIKENESS-STAR-11",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_aerial_pitch_12",
+      "title": "Aerial Pitch Reveal",
+      "owner": "Studio Sports Archive",
+      "license": {
+        "status": "cleared",
+        "platforms": ["instagram", "youtube", "web", "broadcast", "tiktok"],
+        "territories": ["GLOBAL"],
+        "window": { "start": "2023-01-01", "end": "2032-12-31" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "CONTRACT-SSA-2023-012",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_goal_replay_13",
+      "title": "Goal Replay Multi-angle",
+      "owner": "League Media Partners",
+      "license": {
+        "status": "cleared",
+        "platforms": ["instagram", "youtube", "web"],
+        "territories": ["US", "IN"],
+        "window": { "start": "2022-01-01", "end": "2028-12-31" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "CONTRACT-LMP-2022-GOAL",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_locker_quiet_14",
+      "title": "Quiet Locker Moment",
+      "owner": "Studio Sports Archive",
+      "license": {
+        "status": "cleared",
+        "platforms": ["instagram", "youtube", "web", "broadcast"],
+        "territories": ["GLOBAL"],
+        "window": { "start": "2020-01-01", "end": "2030-12-31" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "CONTRACT-SSA-2020-077",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_fans_paint_15",
+      "title": "Fans Face Paint",
+      "owner": "Studio Sports Archive",
+      "license": {
+        "status": "cleared",
+        "platforms": ["instagram", "youtube", "tiktok", "web"],
+        "territories": ["GLOBAL"],
+        "window": { "start": "2021-01-01", "end": "2030-12-31" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "CONTRACT-SSA-2021-033",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_unknown_broll_16",
+      "title": "Uncatalogued B-Roll Pack",
+      "owner": "Unknown",
+      "license": {
+        "status": "unknown",
+        "platforms": [],
+        "territories": [],
+        "window": {},
+        "music_cleared": false,
+        "likeness_cleared": false
+      },
+      "source_of_truth": "MISSING-RIGHTS-METADATA",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_sunrise_run_17",
+      "title": "Sunrise Team Run",
+      "owner": "Studio Sports Archive",
+      "license": {
+        "status": "cleared",
+        "platforms": ["instagram", "youtube", "web", "tiktok"],
+        "territories": ["GLOBAL"],
+        "window": { "start": "2023-01-01", "end": "2031-12-31" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "CONTRACT-SSA-2023-041",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_press_flash_18",
+      "title": "Press Flash Bulbs",
+      "owner": "Wire Services",
+      "license": {
+        "status": "cleared",
+        "platforms": ["broadcast"],
+        "territories": ["US", "GB"],
+        "window": { "start": "2017-01-01", "end": "2028-12-31" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "WIRE-PRESS-2017",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_community_clinic_19",
+      "title": "Community Coaching Clinic",
+      "owner": "Community Docs",
+      "license": {
+        "status": "cleared",
+        "platforms": ["instagram", "youtube", "web"],
+        "territories": ["US", "IN", "GLOBAL"],
+        "window": { "start": "2022-01-01", "end": "2030-12-31" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "CONTRACT-CD-2022-019",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_final_whistle_20",
+      "title": "Final Whistle",
+      "owner": "Studio Sports Archive",
+      "license": {
+        "status": "cleared",
+        "platforms": ["instagram", "youtube", "web", "broadcast"],
+        "territories": ["GLOBAL"],
+        "window": { "start": "2021-01-01", "end": "2030-12-31" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "CONTRACT-SSA-2021-020",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_confetti_alt_21",
+      "title": "Confetti Burst Alt",
+      "owner": "Studio Sports Archive",
+      "license": {
+        "status": "cleared",
+        "platforms": ["instagram", "youtube", "tiktok", "web", "broadcast"],
+        "territories": ["GLOBAL"],
+        "window": { "start": "2023-01-01", "end": "2032-12-31" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "CONTRACT-SSA-2023-CONF",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_hero_still_22",
+      "title": "Hero Still Push-In",
+      "owner": "Studio Sports Archive",
+      "license": {
+        "status": "cleared",
+        "platforms": ["instagram", "youtube", "web", "broadcast"],
+        "territories": ["GLOBAL"],
+        "window": { "start": "2024-01-01", "end": "2032-12-31" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "CONTRACT-SSA-2024-HERO",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_training_cones_23",
+      "title": "Training Cones Drill",
+      "owner": "Studio Sports Archive",
+      "license": {
+        "status": "cleared",
+        "platforms": ["instagram", "youtube", "tiktok", "web"],
+        "territories": ["GLOBAL"],
+        "window": { "start": "2022-01-01", "end": "2030-12-31" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "CONTRACT-SSA-2022-CONES",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_archive_promo_24",
+      "title": "1990s Promo Reel Snippet",
+      "owner": "Heritage Vault",
+      "license": {
+        "status": "restricted",
+        "platforms": ["broadcast"],
+        "territories": ["US"],
+        "window": { "start": "1998-01-01", "end": "2005-01-01" },
+        "music_cleared": false,
+        "likeness_cleared": false
+      },
+      "source_of_truth": "HERITAGE-PROMO-1998",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_cleared_montage_25",
+      "title": "Fully Cleared Highlight Pack",
+      "owner": "Studio Sports Archive",
+      "license": {
+        "status": "cleared",
+        "platforms": ["instagram", "youtube", "tiktok", "web", "broadcast"],
+        "territories": ["GLOBAL"],
+        "window": { "start": "2024-01-01", "end": "2035-12-31" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "CONTRACT-SSA-2024-MONTAGE",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_india_street_cricket_26",
+      "title": "Street Cricket Pune",
+      "owner": "India Field Unit",
+      "license": {
+        "status": "cleared",
+        "platforms": ["instagram", "youtube", "web"],
+        "territories": ["IN", "US", "GLOBAL"],
+        "window": { "start": "2023-01-01", "end": "2031-12-31" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "CONTRACT-IFU-2023-CRICKET",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_diwali_lights_27",
+      "title": "Festival Lights",
+      "owner": "India Field Unit",
+      "license": {
+        "status": "cleared",
+        "platforms": ["instagram", "youtube", "web", "tiktok"],
+        "territories": ["IN", "GLOBAL"],
+        "window": { "start": "2022-01-01", "end": "2030-12-31" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "CONTRACT-IFU-2022-FEST",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_product_hero_28",
+      "title": "Product Hero Spin",
+      "owner": "Brand Studio",
+      "license": {
+        "status": "cleared",
+        "platforms": ["instagram", "youtube", "web", "tiktok", "broadcast"],
+        "territories": ["GLOBAL"],
+        "window": { "start": "2024-01-01", "end": "2035-12-31" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "BRAND-HERO-2024",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_ocean_waves_29",
+      "title": "Ocean Waves Slow",
+      "owner": "Nature Stock",
+      "license": {
+        "status": "cleared",
+        "platforms": ["instagram", "youtube", "web", "broadcast"],
+        "territories": ["GLOBAL"],
+        "window": { "start": "2020-01-01", "end": "2035-12-31" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "NATURE-OCEAN-29",
+      "updated_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "asset_id": "clip_team_bus_30",
+      "title": "Team Bus Arrival",
+      "owner": "Studio Sports Archive",
+      "license": {
+        "status": "cleared",
+        "platforms": ["instagram", "youtube", "web"],
+        "territories": ["US", "IN", "GB"],
+        "window": { "start": "2023-01-01", "end": "2030-12-31" },
+        "music_cleared": true,
+        "likeness_cleared": true
+      },
+      "source_of_truth": "CONTRACT-SSA-2023-BUS",
+      "updated_at": "2026-01-15T00:00:00Z"
+    }
+  ]
+}

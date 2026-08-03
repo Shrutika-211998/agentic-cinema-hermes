@@ -1,0 +1,9 @@
+title: "Second Unit Clearance Reviewer"
+description: "Can view clearance reports; cannot approve release."
+stage: "GA"
+includedPermissions:
+  - resourcemanager.projects.get
+  - logging.logEntries.create
+  - logging.logEntries.list
+  - datastore.entities.get
+  - datastore.entities.list

@@ -1,0 +1,10 @@
+title: "Second Unit Brief Submitter"
+description: "Can start Second Unit productions; cannot approve release."
+stage: "GA"
+includedPermissions:
+  - resourcemanager.projects.get
+  - logging.logEntries.create
+  - datastore.entities.get
+  - datastore.entities.list
+  - datastore.entities.create
+  - datastore.entities.update

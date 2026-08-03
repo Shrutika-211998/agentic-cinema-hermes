@@ -1,0 +1,7 @@
+second-unit-api=https://second-unit-api-fytheknb4a-el.a.run.app
+second-unit-dashboard=https://second-unit-dashboard-fytheknb4a-el.a.run.app
+second-unit-archive-mcp=https://second-unit-archive-mcp-fytheknb4a-el.a.run.app
+second-unit-rights-mcp=https://second-unit-rights-mcp-fytheknb4a-el.a.run.app
+DASHBOARD_WITH_API=https://second-unit-dashboard-fytheknb4a-el.a.run.app/?api=https://second-unit-api-fytheknb4a-el.a.run.app
+PROJECT=project-41b01091-4313-42ff-8d8
+REGION=asia-south1

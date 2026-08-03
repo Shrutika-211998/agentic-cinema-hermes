@@ -1,0 +1,8 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-f', 'Dockerfile', '-t', 'asia-south1-docker.pkg.dev/project-41b01091-4313-42ff-8d8/second-unit/second-unit-api', '.']
+images:
+  - 'asia-south1-docker.pkg.dev/project-41b01091-4313-42ff-8d8/second-unit/second-unit-api'
+timeout: '1800s'
+options:
+  logging: CLOUD_LOGGING_ONLY
