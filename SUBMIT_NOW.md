@@ -90,14 +90,29 @@ https://github.com/Shrutika-211998/agentic-cinema-hermes
 https://second-unit-dashboard-fytheknb4a-el.a.run.app/
 ```
 
-### Video
+### Video (Devpost requirement)
+Devpost wants a **demo of the product functioning** (not only a cinematic montage).
+
+**Hosted product trailer/storyboard (ready):**
 ```
 https://second-unit-dashboard-fytheknb4a-el.a.run.app/trailer
 ```
 
-(Direct MP4: https://second-unit-dashboard-fytheknb4a-el.a.run.app/second-unit-trailer.mp4)
+**Direct MP4:**
+```
+https://second-unit-dashboard-fytheknb4a-el.a.run.app/second-unit-trailer.mp4
+```
 
-Also in repo: `docs/trailer/second-unit-trailer.mp4`
+**GitHub Release:**
+```
+https://github.com/Shrutika-211998/agentic-cinema-hermes/releases/tag/v1.0.0
+```
+
+**For official Devpost compliance:** also record a 2–3 min **screen capture** of the live dashboard:
+1. Open https://second-unit-dashboard-fytheknb4a-el.a.run.app/
+2. Run production → clearance swap → Marketing deny → Producer approve
+3. Upload to YouTube (public/unlisted) with English audio or subtitles
+4. Paste that YouTube URL on Devpost (preferred over the storyboard MP4)
 
 ---
 
