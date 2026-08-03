@@ -6,6 +6,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 WORKDIR /app
 COPY index.html styles.css app.js config.js ./
+COPY docs/architecture.html ./architecture.html
 COPY deploy/dashboard_server.py ./dashboard_server.py
 
 RUN useradd --create-home --uid 10001 appuser && chown -R appuser:appuser /app
